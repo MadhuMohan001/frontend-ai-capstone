@@ -16,7 +16,15 @@ This repository will contain my frontend capstone project, developed throughout 
 
 ## Development Status and Setup
 
-This repository is currently in the environment and repository setup phase. A React application has not been scaffolded yet, so there are no install, development, or test commands to run. Verified setup instructions will be added once the project structure and tooling are configured.
+The initial environment setup is complete. The `settings-form/` directory contains the React, TypeScript, and Vite application.
+
+To run it locally:
+
+1. Open a terminal in `settings-form/`.
+2. Run `npm install` to install dependencies.
+3. Run `npm run dev` and open the local URL printed by Vite.
+
+Run `npm run typecheck`, `npm run lint`, and `npm test` from `settings-form/` to check the code.
 
 ## Project Goals
 
