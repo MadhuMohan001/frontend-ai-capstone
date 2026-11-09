@@ -43,3 +43,19 @@ Examples:
 - docs: update documentation
 - chore: update configuration
 - refactor: improve code structure
+
+## Project Development Rules
+
+1. All form inputs must be controlled React inputs.
+
+2. Every form input must have an associated
+   accessible label.
+
+3. All user inputs must be validated before
+   successful submission.
+
+4. Every important form interaction must have
+   automated test coverage.
+
+5. Do not install unnecessary dependencies
+   without checking existing packages.
