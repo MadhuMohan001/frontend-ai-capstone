@@ -9,14 +9,26 @@ This repository will contain my frontend capstone project, developed throughout 
 ## Tech Stack
 
 - React
-- TypeScript
+- JavaScript
 - Vite
-- Tailwind CSS
+- CSS
+- Vitest and React Testing Library
 - Git and GitHub
 
 ## Development Status and Setup
 
-This repository is currently in the environment and repository setup phase. A React application has not been scaffolded yet, so there are no install, development, or test commands to run. Verified setup instructions will be added once the project structure and tooling are configured.
+The User Settings form is in `settings-form`. It is built with React and Vite and includes accessible client-side validation for profile details, password confirmation, and email notifications.
+
+From the `settings-form` directory, install dependencies and use these scripts:
+
+```bash
+npm install
+npm run dev
+npm test
+npm run build
+```
+
+The test suite uses Vitest and React Testing Library.
 
 ## Project Goals
 
